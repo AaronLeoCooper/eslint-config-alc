@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     quotes: [2, 'single'],
     semi: [2, 'always'],
+    curly: [2, 'all'],
     'array-bracket-spacing': [2, 'never'],
     'semi-style': [2, 'last']
   }
