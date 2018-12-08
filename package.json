@@ -41,11 +41,11 @@
   },
   "release-it": {
     "src": {
-      "tagName": "v${version}"
+      "tagName": "v${version}",
+      "commitMessage": "release: ${version}"
     },
     "github": {
-      "release": true,
-      "releaseName": "release: ${version}"
+      "release": true
     },
     "npm": {
       "publish": true
