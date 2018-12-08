@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-alc",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ALC's preferred eslint config",
   "main": "index.js",
   "repository": {
