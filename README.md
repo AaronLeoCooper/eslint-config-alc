@@ -1,5 +1,7 @@
 # ALC's ESLint config
 
+[![NPM](https://nodei.co/npm/eslint-config-alc.png?compact=true)](https://npmjs.org/package/eslint-config-alc)
+
 This is my preferred set of ESLint rules, bundled up into a single ESLint config. Suitable for
 **React JS** and **Node** development. Aimed at ESLint v5, but should work with v4.
 
