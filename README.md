@@ -1,7 +1,7 @@
 # ALC's ESLint config
 
 This is my preferred set of ESLint rules, bundled up into a single ESLint config. Suitable for
-**React JS** and **Node** development. Aimed at ESLint v5+.
+**React JS** and **Node** development. Aimed at ESLint v5, but should work with v4.
 
 I liked the baseline set of rules that Netflix use in their DEA eslint config package
 ([eslint-config-netflix-dea](https://github.com/Netflix/eslint-config-netflix-dea))

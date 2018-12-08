@@ -24,7 +24,7 @@
     "eslint-plugin-react": "^7.11.0"
   },
   "peerDependencies": {
-    "eslint": "^5.0.0"
+    "eslint": ">= 4"
   },
   "devDependencies": {
     "release-it": "^8.3.0"
@@ -37,6 +37,9 @@
     "release:dry": "release-it --dry-run"
   },
   "release-it": {
+    "src": {
+      "tagName": "v${version}"
+    },
     "github": {
       "release": true
     },
