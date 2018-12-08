@@ -42,7 +42,7 @@
   "release-it": {
     "src": {
       "tagName": "v${version}",
-      "commitMessage": "release: ${version}"
+      "commitMessage": "ci: Release v${version}"
     },
     "github": {
       "release": true
