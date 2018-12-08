@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-alc",
+  "version": "1.0.0",
+  "description": "ALC's preferred eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+http://github.com/AaronLeoCooper/eslint-config-alc.git"
+  },
+  "author": "Aaron Leo Cooper <aaronleocooper@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^10.0.0",
+    "eslint-config-netflix-dea": "^4.0.0",
+    "eslint-plugin-react": "^7.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "shared",
+    "lint",
+    "plugin",
+    "react",
+    "alc"
+  ],
+  "scripts": {
+    "release": "npm publish",
+    "release:dry": ""
+  }
+}
