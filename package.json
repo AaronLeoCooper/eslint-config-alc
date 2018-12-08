@@ -9,14 +9,6 @@
   },
   "author": "Aaron Leo Cooper <aaronleocooper@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "babel-eslint": "^10.0.0",
-    "eslint-config-netflix-dea": "^4.0.0",
-    "eslint-plugin-react": "^7.11.0"
-  },
-  "peerDependencies": {
-    "eslint": "^5.0.0"
-  },
   "keywords": [
     "eslint",
     "config",
@@ -26,8 +18,31 @@
     "react",
     "alc"
   ],
+  "dependencies": {
+    "babel-eslint": "^10.0.0",
+    "eslint-config-netflix-dea": "^4.0.0",
+    "eslint-plugin-react": "^7.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0"
+  },
+  "devDependencies": {
+    "release-it": "^8.3.0"
+  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "release": "npm publish",
-    "release:dry": ""
+    "release": "release-it",
+    "release:dry": "release-it --dry-run"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": true
+    },
+    "increment": "conventional:angular"
   }
 }
