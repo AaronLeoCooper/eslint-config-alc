@@ -12,6 +12,9 @@ module.exports = {
     'no-extra-parens': [2, 'all', {
       'ignoreJSX': 'multi-line',
       'nestedBinaryExpressions': false
+    }],
+    'react/jsx-no-bind': [2, {
+      'allowArrowFunctions': true
     }]
   }
 };
